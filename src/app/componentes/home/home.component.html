@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-6">
+    <!-- Cartelera -->
+    <app-caroucel [listaPeliculas]="cartelera"  [titulo]="'En Cartelera'" [clasePrincipal]="'bg-danger'"></app-caroucel>
+  </div>
+  <div class="col-6">
+    <!-- Mas populares -->
+    <app-caroucel [listaPeliculas]="topPopulares"  [titulo]="'Más Populares'" [clasePrincipal]="'bg-dark'"></app-caroucel>
+  </div>
+
+</div>
+<div class="row margen-top1">
+  <!-- Infantiles -->
+  <div class="col-6">
+     <app-caroucel [listaPeliculas]="infantiles"  [titulo]="'Infantiles'" [clasePrincipal]="'bg-info'"></app-caroucel>
+  </div>
+
+    <!-- Acción -->
+    <div class="col-6">
+        <app-caroucel [listaPeliculas]="calificadas"  [titulo]="'Mejor Calificadas'" [clasePrincipal]="'bg-secondary'"></app-caroucel>
+     </div>
+</div>
+
+

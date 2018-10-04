@@ -1,0 +1,18 @@
+
+    <div class="card text-white col-mb-12" [ngClass]="clasePrincipal">
+        <div class="card-header text-center "><h4>{{titulo}}</h4></div>
+        <div class="card-body">
+          <ngb-carousel *ngIf="listaPeliculas">
+            <ng-template ngbSlide *ngFor="let movie of listaPeliculas">
+              <img *ngIf="movie.backdrop_path!=null" src="https://image.tmdb.org/t/p/w500{{movie.backdrop_path}}" style="width:100%" alt="Random first slide">
+              <img *ngIf="movie.backdrop_path==null" src="./assets/img/noImage.png" style="width:100%" alt="Random first slide">
+              <div class="carousel-caption captionF">
+                  <a [routerLink]="['/movie',movie.id,'home']" style="opacity:1 !important" >
+                    <h3 class="text-white " >{{movie.title}}</h3>
+                  </a>
+                <!-- <p>{{movie.overview}}.</p> -->
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
+    </div>

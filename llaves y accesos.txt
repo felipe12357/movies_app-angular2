@@ -1,0 +1,8 @@
+Llave API (v3 auth)
+9546141129cea9b3ed851874fe27f19b
+
+Token de acceso de lectura a la API (v4 auth)
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5NTQ2MTQxMTI5Y2VhOWIzZWQ4NTE4NzRmZTI3ZjE5YiIsInN1YiI6IjViYTQwYzUwYzNhMzY4MWNhNTAwNzk5OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tKJrmG-uUgl8Jawy2ciaZkEPmCKDEFVGEsz_xJR4GA4
+
+
+https://www.themoviedb.org/settings/api
